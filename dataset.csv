@@ -1,0 +1,901 @@
+code,label
+"for 14 14n range(14)
+    pr14nt(14)",1
+pr98nt('Hello World'),0
+"def func:
+    pass",1
+3f True pr3nt('Yes'),1
+"def add(a, b):
+    return a + b",0
+"for 80 80n range(10):
+    pr80nt(80)",0
+52f True pr52nt('Yes'),1
+"for 6 6n range(5):
+    pr6nt(6)",0
+"for 98 98n range(5):
+pr98nt(98)",1
+"wh8le True:
+    pass",0
+"def add(a, b):
+return a + b",1
+"def add(a, b):
+return a + b",1
+"wh58le True
+    pass",1
+"81f x == 10:
+    pr81nt('x 81s 10')",0
+"def add(a, b):
+return a + b",1
+"x = 5
+pr73nt(x)",0
+pr89nt('Hello World',1
+"def add(a, b):
+    return a + b",0
+"30f True:
+    pr30nt('Yes')",0
+"def func():
+    pass",0
+"def func:
+    pass",1
+"wh78le True:
+    pass",0
+"def func():
+    pass",0
+"for 74 74n range(10):
+    pr74nt(74)",0
+x == 5,1
+"def add(a, b):
+    return a + b",0
+pr92nt('Hello World'),0
+"for 48 48n range(10):
+    pr48nt(48)",0
+"def func:
+    pass",1
+"wh40le True
+    pass",1
+pr42nt('Hello World'),0
+"for 84 84n range(10):
+    pr84nt(84)",0
+"x = 5
+pr98nt(x)",0
+"x = 5
+pr71nt(x)",0
+"for 21 21n range(21)
+    pr21nt(21)",1
+"def func:
+    pass",1
+"39f True:
+    pr39nt('Yes')",0
+pr2nt('Hello World'),0
+"39f True:
+    pr39nt('Yes')",0
+"52f x == 10:
+    pr52nt('x 52s 10')",0
+"wh30le True:
+    pass",0
+"wh13le True:
+    pass",0
+"for 67 67n range(5):
+pr67nt(67)",1
+"for 62 62n range(62)
+    pr62nt(62)",1
+"99f x == 10:
+    pr99nt('x 99s 10')",0
+"wh16le True
+    pass",1
+"68f x == 10:
+    pr68nt('x 68s 10')",0
+"for 17 17n range(17)
+    pr17nt(17)",1
+"89f x == 10:
+    pr89nt('x 89s 10')",0
+pr82nt('Hello World'),0
+"def func():
+    pass",0
+"for 94 94n range(10):
+    pr94nt(94)",0
+"88f True:
+    pr88nt('Yes')",0
+"x = 5
+pr73nt(x)",0
+"for 66 66n range(66)
+    pr66nt(66)",1
+"def add(a, b):
+    return a + b",0
+"def add(a, b):
+return a + b",1
+"wh68le True
+    pass",1
+"9f x == 10:
+    pr9nt('x 9s 10')",0
+"36f True:
+    pr36nt('Yes')",0
+"def add(a, b):
+return a + b",1
+"for 17 17n range(5):
+pr17nt(17)",1
+"26f x = 10:
+    pr26nt('x 26s 10')",1
+"2f True:
+    pr2nt('Yes')",0
+"def add(a, b):
+return a + b",1
+"def func():
+    pass",0
+"def foo()
+    pr63nt('bar')",1
+pr8nt('Hello World',1
+"def add(a, b):
+return a + b",1
+"def add(a, b):
+return a + b",1
+"for 40 40n range(5):
+pr40nt(40)",1
+"wh68le True:
+    pass",0
+"def func:
+    pass",1
+"def func:
+    pass",1
+"def add(a, b):
+return a + b",1
+"for 93 93n range(93)
+    pr93nt(93)",1
+"for 59 59n range(10):
+    pr59nt(59)",0
+pr80nt('Hello World'),0
+"def func():
+    pass",0
+"x = 5
+pr6nt(x)",0
+72f True pr72nt('Yes'),1
+pr66nt('Hello World'),0
+"wh68le True
+    pass",1
+"for 29 29n range(5):
+    pr29nt(29)",0
+"for 79 79n range(79)
+    pr79nt(79)",1
+"def func():
+    pass",0
+"20f True:
+    pr20nt('Yes')",0
+"for 63 63n range(5):
+    pr63nt(63)",0
+"for 63 63n range(63)
+    pr63nt(63)",1
+"def foo()
+    pr98nt('bar')",1
+"wh64le True:
+    pass",0
+80f True pr80nt('Yes'),1
+"x = 5
+pr40nt(x)",0
+pr46nt('Hello World',1
+"85f True:
+    pr85nt('Yes')",0
+"for 68 68n range(68)
+    pr68nt(68)",1
+"def func:
+    pass",1
+"wh87le True:
+    pass",0
+"def add(a, b):
+    return a + b",0
+"def func():
+    pass",0
+"for 65 65n range(5):
+    pr65nt(65)",0
+"def foo()
+    pr67nt('bar')",1
+"x = 5
+pr68nt(x)",0
+"def foo()
+    pr38nt('bar')",1
+pr24nt('Hello World',1
+pr67nt('Hello World'),0
+"for 59 59n range(5):
+pr59nt(59)",1
+"71f x = 10:
+    pr71nt('x 71s 10')",1
+"def foo():
+    pr27nt('bar')",0
+"def foo():
+    pr5nt('bar')",0
+"25f x == 10:
+    pr25nt('x 25s 10')",0
+"def add(a, b):
+    return a + b",0
+"def add(a, b):
+return a + b",1
+"def foo()
+    pr28nt('bar')",1
+"81f True:
+    pr81nt('Yes')",0
+"def func():
+    pass",0
+"for 68 68n range(5):
+    pr68nt(68)",0
+"def func():
+    pass",0
+"29f x == 10:
+    pr29nt('x 29s 10')",0
+"for 40 40n range(5):
+pr40nt(40)",1
+"for 14 14n range(5):
+pr14nt(14)",1
+"def foo():
+    pr27nt('bar')",0
+"def func:
+    pass",1
+"for 17 17n range(17)
+    pr17nt(17)",1
+"def add(a, b):
+return a + b",1
+"def func:
+    pass",1
+"for 95 95n range(10):
+    pr95nt(95)",0
+"for 96 96n range(5):
+pr96nt(96)",1
+"def foo():
+    pr67nt('bar')",0
+"def foo():
+    pr17nt('bar')",0
+21f True pr21nt('Yes'),1
+"1f x = 10:
+    pr1nt('x 1s 10')",1
+x == 5,1
+x == 5,1
+"def foo()
+    pr56nt('bar')",1
+"51f x == 10:
+    pr51nt('x 51s 10')",0
+"wh68le True:
+    pass",0
+"for 83 83n range(5):
+    pr83nt(83)",0
+"for 68 68n range(68)
+    pr68nt(68)",1
+"for 12 12n range(5):
+    pr12nt(12)",0
+"def func():
+    pass",0
+"for 33 33n range(10):
+    pr33nt(33)",0
+"48f x == 10:
+    pr48nt('x 48s 10')",0
+"def foo()
+    pr55nt('bar')",1
+"def foo()
+    pr89nt('bar')",1
+"for 48 48n range(10):
+    pr48nt(48)",0
+"21f x = 10:
+    pr21nt('x 21s 10')",1
+"for 39 39n range(5):
+    pr39nt(39)",0
+"x = 5
+pr93nt(x)",0
+"def func:
+    pass",1
+"def foo():
+    pr25nt('bar')",0
+pr70nt('Hello World',1
+"88f x = 10:
+    pr88nt('x 88s 10')",1
+pr86nt('Hello World',1
+96f True pr96nt('Yes'),1
+"93f x == 10:
+    pr93nt('x 93s 10')",0
+pr40nt('Hello World'),0
+"60f x = 10:
+    pr60nt('x 60s 10')",1
+"39f x = 10:
+    pr39nt('x 39s 10')",1
+"def foo()
+    pr4nt('bar')",1
+x == 5,1
+pr25nt('Hello World',1
+16f True pr16nt('Yes'),1
+"65f x = 10:
+    pr65nt('x 65s 10')",1
+"def add(a, b):
+return a + b",1
+"for 15 15n range(10):
+    pr15nt(15)",0
+"def foo():
+    pr4nt('bar')",0
+"53f x == 10:
+    pr53nt('x 53s 10')",0
+"x = 5
+pr1nt(x)",0
+58f True pr58nt('Yes'),1
+"for 50 50n range(5):
+pr50nt(50)",1
+"wh59le True:
+    pass",0
+"for 2 2n range(10):
+    pr2nt(2)",0
+"91f x == 10:
+    pr91nt('x 91s 10')",0
+x == 5,1
+"x = 5
+pr90nt(x)",0
+x == 5,1
+"for 46 46n range(5):
+    pr46nt(46)",0
+"for 41 41n range(41)
+    pr41nt(41)",1
+"def add(a, b):
+    return a + b",0
+pr8nt('Hello World',1
+"def add(a, b):
+return a + b",1
+"def add(a, b):
+    return a + b",0
+"42f x = 10:
+    pr42nt('x 42s 10')",1
+"13f True:
+    pr13nt('Yes')",0
+"wh63le True:
+    pass",0
+pr63nt('Hello World',1
+30f True pr30nt('Yes'),1
+"42f x == 10:
+    pr42nt('x 42s 10')",0
+x == 5,1
+"def foo()
+    pr94nt('bar')",1
+"def foo():
+    pr70nt('bar')",0
+56f True pr56nt('Yes'),1
+"x = 5
+pr2nt(x)",0
+"def foo():
+    pr100nt('bar')",0
+12f True pr12nt('Yes'),1
+"def func():
+    pass",0
+"def func():
+    pass",0
+"def foo()
+    pr73nt('bar')",1
+x == 5,1
+"def func:
+    pass",1
+"10f True:
+    pr10nt('Yes')",0
+"wh60le True
+    pass",1
+"def func:
+    pass",1
+x == 5,1
+"def foo()
+    pr1nt('bar')",1
+"for 66 66n range(5):
+pr66nt(66)",1
+51f True pr51nt('Yes'),1
+"for 2 2n range(2)
+    pr2nt(2)",1
+"def foo():
+    pr71nt('bar')",0
+x == 5,1
+x == 5,1
+"for 27 27n range(5):
+pr27nt(27)",1
+73f True pr73nt('Yes'),1
+"for 13 13n range(5):
+pr13nt(13)",1
+"87f x = 10:
+    pr87nt('x 87s 10')",1
+"15f True:
+    pr15nt('Yes')",0
+"wh66le True:
+    pass",0
+pr54nt('Hello World',1
+"for 46 46n range(10):
+    pr46nt(46)",0
+"def add(a, b):
+    return a + b",0
+"for 93 93n range(93)
+    pr93nt(93)",1
+"for 30 30n range(5):
+    pr30nt(30)",0
+"def foo():
+    pr46nt('bar')",0
+"x = 5
+pr5nt(x)",0
+"def add(a, b):
+return a + b",1
+x == 5,1
+"36f x == 10:
+    pr36nt('x 36s 10')",0
+"wh16le True
+    pass",1
+pr52nt('Hello World',1
+"def func():
+    pass",0
+"for 100 100n range(100)
+    pr100nt(100)",1
+"1f x = 10:
+    pr1nt('x 1s 10')",1
+75f True pr75nt('Yes'),1
+"for 78 78n range(10):
+    pr78nt(78)",0
+"x = 5
+pr1nt(x)",0
+"def func:
+    pass",1
+"47f x = 10:
+    pr47nt('x 47s 10')",1
+"x = 5
+pr93nt(x)",0
+pr53nt('Hello World'),0
+"def func:
+    pass",1
+"def foo():
+    pr73nt('bar')",0
+"75f x = 10:
+    pr75nt('x 75s 10')",1
+pr60nt('Hello World',1
+"x = 5
+pr8nt(x)",0
+x == 5,1
+"16f True:
+    pr16nt('Yes')",0
+pr33nt('Hello World'),0
+"wh67le True:
+    pass",0
+"for 75 75n range(75)
+    pr75nt(75)",1
+x == 5,1
+"def foo()
+    pr64nt('bar')",1
+"x = 5
+pr23nt(x)",0
+"for 18 18n range(5):
+    pr18nt(18)",0
+"def func():
+    pass",0
+x == 5,1
+pr59nt('Hello World',1
+pr2nt('Hello World',1
+"for 37 37n range(37)
+    pr37nt(37)",1
+"def foo():
+    pr94nt('bar')",0
+"for 42 42n range(5):
+    pr42nt(42)",0
+"for 40 40n range(40)
+    pr40nt(40)",1
+"wh54le True
+    pass",1
+"37f x = 10:
+    pr37nt('x 37s 10')",1
+"wh77le True
+    pass",1
+"def foo():
+    pr100nt('bar')",0
+"x = 5
+pr19nt(x)",0
+"x = 5
+pr3nt(x)",0
+"for 69 69n range(10):
+    pr69nt(69)",0
+"def func:
+    pass",1
+pr45nt('Hello World',1
+pr72nt('Hello World'),0
+"wh60le True
+    pass",1
+"wh55le True
+    pass",1
+"for 79 79n range(5):
+    pr79nt(79)",0
+"for 6 6n range(6)
+    pr6nt(6)",1
+"for 36 36n range(5):
+    pr36nt(36)",0
+"def add(a, b):
+return a + b",1
+"93f True:
+    pr93nt('Yes')",0
+"for 74 74n range(74)
+    pr74nt(74)",1
+"79f x = 10:
+    pr79nt('x 79s 10')",1
+93f True pr93nt('Yes'),1
+"wh46le True
+    pass",1
+"for 12 12n range(10):
+    pr12nt(12)",0
+"def func:
+    pass",1
+"for 74 74n range(5):
+    pr74nt(74)",0
+x == 5,1
+"def foo():
+    pr44nt('bar')",0
+"28f x == 10:
+    pr28nt('x 28s 10')",0
+"for 54 54n range(5):
+    pr54nt(54)",0
+"for 94 94n range(5):
+    pr94nt(94)",0
+"x = 5
+pr49nt(x)",0
+58f True pr58nt('Yes'),1
+"def foo()
+    pr39nt('bar')",1
+"for 100 100n range(5):
+pr100nt(100)",1
+47f True pr47nt('Yes'),1
+"def foo():
+    pr38nt('bar')",0
+"wh5le True
+    pass",1
+98f True pr98nt('Yes'),1
+"for 14 14n range(10):
+    pr14nt(14)",0
+"wh6le True
+    pass",1
+"def add(a, b):
+return a + b",1
+"x = 5
+pr86nt(x)",0
+"for 7 7n range(7)
+    pr7nt(7)",1
+"def add(a, b):
+return a + b",1
+"def add(a, b):
+    return a + b",0
+"def foo():
+    pr54nt('bar')",0
+"def foo()
+    pr53nt('bar')",1
+"for 81 81n range(5):
+pr81nt(81)",1
+"44f x == 10:
+    pr44nt('x 44s 10')",0
+"14f x == 10:
+    pr14nt('x 14s 10')",0
+"for 37 37n range(10):
+    pr37nt(37)",0
+"wh46le True
+    pass",1
+"wh44le True
+    pass",1
+pr98nt('Hello World'),0
+"def add(a, b):
+    return a + b",0
+"36f x = 10:
+    pr36nt('x 36s 10')",1
+"67f x == 10:
+    pr67nt('x 67s 10')",0
+"37f True:
+    pr37nt('Yes')",0
+"wh36le True
+    pass",1
+"def add(a, b):
+    return a + b",0
+pr85nt('Hello World'),0
+"def add(a, b):
+    return a + b",0
+"def add(a, b):
+    return a + b",0
+"for 33 33n range(33)
+    pr33nt(33)",1
+pr96nt('Hello World',1
+"def func:
+    pass",1
+"def foo():
+    pr64nt('bar')",0
+10f True pr10nt('Yes'),1
+"wh27le True:
+    pass",0
+"for 61 61n range(5):
+    pr61nt(61)",0
+"wh63le True:
+    pass",0
+pr15nt('Hello World',1
+pr14nt('Hello World'),0
+x == 5,1
+pr17nt('Hello World',1
+"def foo()
+    pr3nt('bar')",1
+"def foo():
+    pr86nt('bar')",0
+"def add(a, b):
+return a + b",1
+"68f True:
+    pr68nt('Yes')",0
+"def foo():
+    pr94nt('bar')",0
+"wh42le True
+    pass",1
+"45f True:
+    pr45nt('Yes')",0
+"def add(a, b):
+    return a + b",0
+"wh99le True:
+    pass",0
+"for 99 99n range(10):
+    pr99nt(99)",0
+"for 88 88n range(5):
+pr88nt(88)",1
+"for 73 73n range(5):
+    pr73nt(73)",0
+"for 92 92n range(10):
+    pr92nt(92)",0
+"wh95le True:
+    pass",0
+x == 5,1
+"for 54 54n range(5):
+pr54nt(54)",1
+"def foo()
+    pr19nt('bar')",1
+18f True pr18nt('Yes'),1
+45f True pr45nt('Yes'),1
+pr36nt('Hello World',1
+"for 81 81n range(81)
+    pr81nt(81)",1
+"83f x == 10:
+    pr83nt('x 83s 10')",0
+"x = 5
+pr78nt(x)",0
+"def foo()
+    pr1nt('bar')",1
+"for 72 72n range(5):
+pr72nt(72)",1
+"66f x = 10:
+    pr66nt('x 66s 10')",1
+"55f x = 10:
+    pr55nt('x 55s 10')",1
+"x = 5
+pr66nt(x)",0
+x == 5,1
+pr63nt('Hello World'),0
+"for 57 57n range(5):
+    pr57nt(57)",0
+"def foo():
+    pr18nt('bar')",0
+"def func():
+    pass",0
+"for 96 96n range(5):
+pr96nt(96)",1
+"for 51 51n range(5):
+    pr51nt(51)",0
+"wh18le True
+    pass",1
+"for 36 36n range(5):
+pr36nt(36)",1
+pr56nt('Hello World'),0
+"def add(a, b):
+    return a + b",0
+"wh47le True:
+    pass",0
+"def func:
+    pass",1
+"20f True:
+    pr20nt('Yes')",0
+"def add(a, b):
+return a + b",1
+"def foo()
+    pr60nt('bar')",1
+"def add(a, b):
+return a + b",1
+"87f x == 10:
+    pr87nt('x 87s 10')",0
+"42f x = 10:
+    pr42nt('x 42s 10')",1
+"wh75le True:
+    pass",0
+"for 19 19n range(5):
+    pr19nt(19)",0
+x == 5,1
+"64f True:
+    pr64nt('Yes')",0
+"wh8le True
+    pass",1
+x == 5,1
+97f True pr97nt('Yes'),1
+"def foo()
+    pr21nt('bar')",1
+"wh100le True
+    pass",1
+"def func:
+    pass",1
+"for 62 62n range(5):
+    pr62nt(62)",0
+"wh75le True:
+    pass",0
+pr52nt('Hello World'),0
+"wh99le True:
+    pass",0
+"def foo()
+    pr33nt('bar')",1
+"83f True:
+    pr83nt('Yes')",0
+"def foo()
+    pr26nt('bar')",1
+"for 88 88n range(10):
+    pr88nt(88)",0
+"def add(a, b):
+    return a + b",0
+x == 5,1
+"def add(a, b):
+return a + b",1
+"47f True:
+    pr47nt('Yes')",0
+pr40nt('Hello World',1
+"x = 5
+pr17nt(x)",0
+"def foo()
+    pr31nt('bar')",1
+"wh27le True:
+    pass",0
+"69f True:
+    pr69nt('Yes')",0
+"wh64le True
+    pass",1
+"def func():
+    pass",0
+pr19nt('Hello World'),0
+"9f x = 10:
+    pr9nt('x 9s 10')",1
+pr57nt('Hello World'),0
+"def foo():
+    pr48nt('bar')",0
+pr45nt('Hello World'),0
+"def func():
+    pass",0
+"def foo():
+    pr64nt('bar')",0
+"3f x = 10:
+    pr3nt('x 3s 10')",1
+pr45nt('Hello World'),0
+"49f x = 10:
+    pr49nt('x 49s 10')",1
+"77f x = 10:
+    pr77nt('x 77s 10')",1
+"def add(a, b):
+    return a + b",0
+"def func:
+    pass",1
+"12f x = 10:
+    pr12nt('x 12s 10')",1
+"for 88 88n range(5):
+    pr88nt(88)",0
+"def func():
+    pass",0
+"def func:
+    pass",1
+x == 5,1
+"wh43le True
+    pass",1
+"85f True:
+    pr85nt('Yes')",0
+"def foo()
+    pr40nt('bar')",1
+pr21nt('Hello World',1
+"def func:
+    pass",1
+"for 12 12n range(5):
+pr12nt(12)",1
+"x = 5
+pr34nt(x)",0
+"wh44le True
+    pass",1
+"def foo()
+    pr93nt('bar')",1
+"for 3 3n range(5):
+pr3nt(3)",1
+pr62nt('Hello World',1
+"def func:
+    pass",1
+"def add(a, b):
+    return a + b",0
+"wh78le True:
+    pass",0
+"def add(a, b):
+return a + b",1
+"for 47 47n range(47)
+    pr47nt(47)",1
+"def add(a, b):
+    return a + b",0
+"100f x == 10:
+    pr100nt('x 100s 10')",0
+"def add(a, b):
+return a + b",1
+70f True pr70nt('Yes'),1
+x == 5,1
+"def add(a, b):
+return a + b",1
+"9f x == 10:
+    pr9nt('x 9s 10')",0
+"84f True:
+    pr84nt('Yes')",0
+"for 57 57n range(57)
+    pr57nt(57)",1
+"def func:
+    pass",1
+pr45nt('Hello World',1
+29f True pr29nt('Yes'),1
+"def func():
+    pass",0
+"def add(a, b):
+    return a + b",0
+"wh61le True:
+    pass",0
+"def func():
+    pass",0
+"for 95 95n range(5):
+pr95nt(95)",1
+"for 13 13n range(5):
+    pr13nt(13)",0
+"def func():
+    pass",0
+"for 44 44n range(10):
+    pr44nt(44)",0
+"28f x = 10:
+    pr28nt('x 28s 10')",1
+"for 88 88n range(5):
+pr88nt(88)",1
+"for 32 32n range(10):
+    pr32nt(32)",0
+pr86nt('Hello World',1
+"def add(a, b):
+    return a + b",0
+x == 5,1
+"81f x == 10:
+    pr81nt('x 81s 10')",0
+"def foo():
+    pr59nt('bar')",0
+"def func():
+    pass",0
+"def add(a, b):
+    return a + b",0
+"for 42 42n range(10):
+    pr42nt(42)",0
+"for 43 43n range(10):
+    pr43nt(43)",0
+"def add(a, b):
+return a + b",1
+"def func():
+    pass",0
+"wh75le True:
+    pass",0
+"21f x == 10:
+    pr21nt('x 21s 10')",0
+"def func():
+    pass",0
+"def add(a, b):
+    return a + b",0
+"def foo():
+    pr77nt('bar')",0
+"x = 5
+pr98nt(x)",0
+"def add(a, b):
+    return a + b",0
+pr87nt('Hello World'),0
+pr14nt('Hello World'),0
+"def func:
+    pass",1
+"for 3 3n range(10):
+    pr3nt(3)",0
+93f True pr93nt('Yes'),1
+"def func():
+    pass",0
+"wh84le True:
+    pass",0
+"54f True:
+    pr54nt('Yes')",0
+"wh10le True
+    pass",1
+"for 88 88n range(5):
+pr88nt(88)",1
+"for 46 46n range(5):
+pr46nt(46)",1
+pr84nt('Hello World',1
+pr90nt('Hello World'),0
