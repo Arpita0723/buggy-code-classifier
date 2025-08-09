@@ -21,13 +21,13 @@ bash
 Copy code
 buggy_code_classifier/
 │
-├── prepare_dataset.py     # Generates 500+ code samples
-├── train_model.py         # Trains the model on dataset.csv
-├── predict.py             # User inputs code and gets prediction
-├── dataset.csv            # Code samples (buggy + clean)
-├── model.pkl              # Trained logistic regression model
-├── vectorizer.pkl         # TF-IDF vectorizer
-└── README.md              # Project explanation
+├── prepare_dataset.py  
+├── train_model.py        
+├── predict.py            
+├── dataset.csv          
+├── model.pkl             
+├── vectorizer.pkl         
+└── README.md            
 
 
 🔧 How It Works
@@ -85,6 +85,7 @@ Copy code
 The code is predicted to be BUGGY.
 
 
-👤 Author
+👤 Created by
 Arpita Singh
-Project: Python Code Quality Classification
+
+Project: Code Quality Classification
