@@ -21,6 +21,7 @@ X_input = vectorizer.transform([user_code])
 prediction = model.predict(X_input)[0]
 
 if prediction == 1:
-    print("\n🚫 The code is predicted to be BUGGY.")
+    print("\n The code is predicted to be BUGGY.")
 else:
-    print("\n✅ The code is predicted to be CLEAN.")
+    print("\n The code is predicted to be CLEAN.")
+
