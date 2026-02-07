@@ -7,7 +7,7 @@ import joblib
 
 # Load dataset
 df = pd.read_csv("dataset.csv")
-print(f"✅ Dataset loaded with {len(df)} samples")
+print(f"Dataset loaded with {len(df)} samples")
 
 # Features and labels
 X = df["code"]
@@ -28,9 +28,10 @@ model.fit(X_train_tfidf, y_train)
 # Evaluate
 y_pred = model.predict(X_test_tfidf)
 acc = accuracy_score(y_test, y_pred)
-print(f"✅ Model trained with accuracy: {acc:.2f}")
+print(f"Model trained with accuracy: {acc:.2f}")
 
 # Save model and vectorizer
 joblib.dump(model, "model.pkl")
 joblib.dump(vectorizer, "vectorizer.pkl")
-print("✅ Model and vectorizer saved.")
+print("Model and vectorizer saved.")
+
