@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Buggy Code Classifier</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🐞 Buggy Code Classifier</h1>
+
+<p>
+Paste your Python code below and click Predict.
+</p>
+
+<form action="/predict" method="POST">
+
+<textarea
+name="code"
+placeholder="Paste your Python code here..."
+required></textarea>
+
+<br>
+
+<button type="submit">
+
+Predict
+
+</button>
+
+</form>
+
+{% if prediction %}
+
+<div class="result">
+
+<h2>
+
+Prediction :
+{{ prediction }}
+
+</h2>
+
+<h3>
+
+Confidence :
+{{ confidence }}
+
+</h3>
+
+</div>
+
+{% endif %}
+
+</div>
+
+</body>
+
+</html>

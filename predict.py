@@ -4,23 +4,41 @@ import joblib
 model = joblib.load("model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
-print("Enter your code snippet (press Enter twice to finish):")
+print("=" * 60)
+print("      Buggy Code Classifier")
+print("=" * 60)
 
-# Multiline input
+print("\nEnter your Python code.")
+print("Press Enter twice to finish.\n")
+
 lines = []
+
 while True:
     line = input()
     if line == "":
         break
     lines.append(line)
 
-user_code = "\n".join(lines)
+code = "\n".join(lines)
 
-# Transform and predict
-X_input = vectorizer.transform([user_code])
-prediction = model.predict(X_input)[0]
+if not code.strip():
+    print("\nNo code entered!")
+    exit()
 
-if prediction == 1:
-    print("\n🚫 The code is predicted to be BUGGY.")
-else:
-    print("\n✅ The code is predicted to be CLEAN.")
+# Transform
+code_vector = vectorizer.transform([code])
+
+# Predict
+prediction = model.predict(code_vector)[0]
+
+# Confidence
+probabilities = model.predict_proba(code_vector)[0]
+
+classes = model.classes_
+
+confidence = max(probabilities) * 100
+
+print("\n" + "=" * 60)
+print("Prediction :", prediction.upper())
+print(f"Confidence : {confidence:.2f}%")
+print("=" * 60)

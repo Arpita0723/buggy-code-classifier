@@ -1,90 +1,165 @@
-🐛 Buggy Code Classifier
-This project is a machine learning-based classifier that detects buggy vs. clean Python code snippets using TF-IDF vectorization and Logistic Regression.
+# 🐞 Buggy Code Classifier
 
+A Machine Learning-based web application that classifies Python code snippets as **Buggy** or **Clean** using **TF-IDF Vectorization** and **Logistic Regression**. The project also provides a simple Flask web interface for real-time predictions.
 
-✅ Features
-Automatically detects common Python bugs (missing colons, bad indentation, etc.)
+---
 
-Classifies code as:
+## 📌 Features
 
-1 → Buggy
+- 🧠 Machine Learning-based Bug Classification
+- 📝 Automatically Generated Python Code Dataset
+- ⚖️ Balanced Dataset (Clean & Buggy Code)
+- 🔍 TF-IDF Feature Extraction
+- 🤖 Logistic Regression Classifier
+- 🌐 Flask Web Interface
+- 💾 Model Serialization using Joblib
+- ⚡ Real-Time Prediction with Confidence Score
 
-0 → Clean
+---
 
-Built using scikit-learn, pandas, and joblib
+## 🛠️ Tech Stack
 
-Interactive input for real-time predictions
+- Python
+- Scikit-learn
+- Pandas
+- Flask
+- Joblib
 
+---
 
-📁 Project Files
-bash
-Copy code
+## 📂 Project Structure
+
+```text
 buggy_code_classifier/
 │
-├── prepare_dataset.py     # Generates 500+ code samples
-├── train_model.py         # Trains the model on dataset.csv
-├── predict.py             # User inputs code and gets prediction
-├── dataset.csv            # Code samples (buggy + clean)
-├── model.pkl              # Trained logistic regression model
-├── vectorizer.pkl         # TF-IDF vectorizer
-└── README.md              # Project explanation
+├── prepare_dataset.py      # Generates synthetic dataset
+├── train_model.py          # Trains the ML model
+├── predict.py              # Command-line prediction
+├── app.py                  # Flask web application
+│
+├── dataset.csv
+├── model.pkl
+├── vectorizer.pkl
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── style.css
+│
+├── screenshots/
+│   ├── homepage.png
+│   ├── clean_prediction.png
+│   ├── buggy_prediction.png
+│   └── training_results.png
+│
+└── README.md
+```
+
+---
+
+## 📊 Dataset
+
+- **Total Samples:** 5000
+- **Classes:** Clean, Buggy
+- Synthetic Python code snippets generated with multiple realistic bug patterns.
+
+---
+
+## 🤖 Machine Learning Pipeline
+
+```
+Dataset
+      │
+      ▼
+TF-IDF Vectorizer
+      │
+      ▼
+Logistic Regression
+      │
+      ▼
+Prediction
+```
+
+---
+
+## 📈 Model Performance
+
+| Metric | Score |
+|---------|-------|
+| Accuracy | **96.8%** |
+| Cross Validation Accuracy | **96.66%** |
+
+---
 
 
-🔧 How It Works
-prepare_dataset.py
-Generates labeled code snippets (buggy or clean)
+## 🚀 Installation
 
-Saves them to dataset.csv
+Clone the repository
 
-train_model.py
-Vectorizes code snippets using TF-IDF
+```bash
+git clone https://github.com/Arpita0723/buggy-code-classifier.git
+```
 
-Trains a Logistic Regression classifier
+Move into the project directory
 
-Saves the trained model and vectorizer
+```bash
+cd buggy-code-classifier
+```
 
-predict.py
-Accepts user input (Python code)
+Install dependencies
 
-Vectorizes it using the saved vectorizer
+```bash
+pip install -r requirements.txt
+```
 
-Uses the model to predict if the code is buggy or clean
+Run the Flask application
 
+```bash
+python app.py
+```
 
+Open your browser and visit
 
-💻 How to Run
-Make sure you have Python installed. Then:
+```text
+http://127.0.0.1:5000
+```
 
-1. Install dependencies:
-bash
-Copy code
-pip install pandas scikit-learn joblib
-2. Prepare the dataset:
-bash
-Copy code
-python prepare_dataset.py
-3. Train the model:
-bash
-Copy code
-python train_model.py
-4. Predict a code snippet:
-bash
-Copy code
-python predict.py
+---
 
+## 💻 Example Prediction
 
-🔍 Sample Input & Output
-🧾 Input (Buggy Code):
-python
-Copy code
+### Input
+
+```python
 for i in range(5)
     print(i)
-✅ Output:
-css
-Copy code
-The code is predicted to be BUGGY.
+```
 
+### Output
 
-👤 Author
-Arpita Singh
-Project: Python Code Quality Classification
+```
+Prediction : BUGGY
+Confidence : 95.66%
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Support multiple programming languages.
+- Improve dataset with additional real-world bug patterns.
+- Compare multiple ML models (e.g., SVM, Random Forest).
+- Integrate transformer-based models such as CodeBERT.
+- Develop a VS Code extension for live bug detection.
+
+---
+
+## 👩‍💻 Author
+
+**Arpita Singh**
+
+B.Tech, Computer Science and Engineering  
+Indian Institute of Technology (BHU), Varanasi
+
+GitHub: https://github.com/Arpita0723
